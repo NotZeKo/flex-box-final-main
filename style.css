@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Radio Canada Big", sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    gap: 24px;
+    background: #1F2937;
+}
+
+.header-logo {
+    margin-right: auto;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+.header-link {
+    display: flex;
+    font-weight: 500;
+    margin-right: 300px;
+    gap: 16px;
+}
+
+.top {
+    display: flex;
+    background: #1F2937;
+}
+
+.top-left {
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #1F2937;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.underline {
+    color: rgb(197, 183, 183)
+}
+
+.top-right {
+    margin-right: 300px;
+    padding-left: 170px;
+    margin-bottom: 25px;
+}
+
+.top-img {
+    border-radius: 5px;
+    border: 5px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.middle-img {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.item {
+    flex-basis: 100px;
+}
+
+.img-text {
+    display: block;
+    padding: 10px;
+}
+
+.random {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 32px;
+
+}
+
+.under-middle {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.quote-item {
+    display: flex;
+    align-items: center;
+    background: #E5E7EB;
+    height: auto;
+    flex-direction: column;
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+
+.quote {
+    vertical-align: top;
+    display: inline-block;
+    max-width: 50%;
+}
+
+.thor {
+    display: flex;
+    align-self:auto;
+    padding: 10px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.bottom-item {
+    border: 5px #3882f6 solid;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    padding: 0 50px;
+}
+
+.sign {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.signup1 {
+    display:flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #1F2937;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+footer {
+    display: flex;
+    margin-top: 30px;
+    height: 60px;
+    background: #1F2937;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
